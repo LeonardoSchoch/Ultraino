@@ -52,7 +52,7 @@ public class SimpleFPGA extends DeviceConnection{
         //115200
         //230400 -- FASTEST POSSIBLE FOR MACOS (java limitation rxtx)
         //250000
-        return 518400;
+        return 1036800;
     } 
 
     @Override
